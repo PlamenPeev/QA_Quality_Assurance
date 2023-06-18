@@ -2,3 +2,4 @@ Exercise commit from git bash!
 Try one more time.
 
 01. Fist try to change
+02. Second try to push
