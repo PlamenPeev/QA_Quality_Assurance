@@ -1,0 +1,257 @@
+{
+	"info": {
+		"_postman_id": "a2f1dfa2-ab1e-472d-a619-8268dad88706",
+		"name": "Test demo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25976931"
+	},
+	"item": [
+		{
+			"name": "https://api.github.com/repos/PlamenPeev/QA_Quality_Assurance/issues/2",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "ghp_***************************************",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "PlamenPeev",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"state\": \"open\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api.github.com/repos/PlamenPeev/QA_Quality_Assurance/issues/2",
+					"protocol": "https",
+					"host": [
+						"api",
+						"github",
+						"com"
+					],
+					"path": [
+						"repos",
+						"PlamenPeev",
+						"QA_Quality_Assurance",
+						"issues",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.github.com/repos/PlamenPeev/QA_Quality_Assurance/issues/2",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "ghp_***************************************",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "PlamenPeev",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"state\": \"open\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api.github.com/repos/PlamenPeev/QA_Quality_Assurance/issues/1",
+					"protocol": "https",
+					"host": [
+						"api",
+						"github",
+						"com"
+					],
+					"path": [
+						"repos",
+						"PlamenPeev",
+						"QA_Quality_Assurance",
+						"issues",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.github.com/repos/PlamenPeev/QA_Quality_Assurance/issues/2",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "ghp_***************************************",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "PlamenPeev",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"state\": \"open\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api.github.com/repos/PlamenPeev/QA_Quality_Assurance/issues",
+					"protocol": "https",
+					"host": [
+						"api",
+						"github",
+						"com"
+					],
+					"path": [
+						"repos",
+						"PlamenPeev",
+						"QA_Quality_Assurance",
+						"issues"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.github.com/repos/PlamenPeev/QA_Quality_Assurance/issues/2",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "ghp_***************************************",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "PlamenPeev",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"body\": \"My test comment by Postman\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api.github.com/repos/PlamenPeev/QA_Quality_Assurance/issues/2/comments",
+					"protocol": "https",
+					"host": [
+						"api",
+						"github",
+						"com"
+					],
+					"path": [
+						"repos",
+						"PlamenPeev",
+						"QA_Quality_Assurance",
+						"issues",
+						"2",
+						"comments"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.github.com/repos/PlamenPeev/QA_Quality_Assurance/issues/2",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "ghp_***************************************",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "PlamenPeev",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"body\": \"My patch test comment by Postman\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api.github.com/repos/PlamenPeev/QA_Quality_Assurance/issues/comments/1658991008",
+					"protocol": "https",
+					"host": [
+						"api",
+						"github",
+						"com"
+					],
+					"path": [
+						"repos",
+						"PlamenPeev",
+						"QA_Quality_Assurance",
+						"issues",
+						"comments",
+						"1658991008"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
