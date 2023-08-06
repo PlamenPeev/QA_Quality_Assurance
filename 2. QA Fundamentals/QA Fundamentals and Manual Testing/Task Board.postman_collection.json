@@ -1,0 +1,765 @@
+{
+	"info": {
+		"_postman_id": "db01ba59-a9dc-496f-aed5-c925354831fc",
+		"name": "Task Board",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25976931"
+	},
+	"item": [
+		{
+			"name": "https://taskboardjsv02-1--plamenpeev.repl.co/api/tasks",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "ghp_****************************************",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "PlamenPeev",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"Add Tests\",\r\n    \"description\": \"API + UI tests\",\r\n    \"board\": \"Open\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://taskboardjsv02-1--plamenpeev.repl.co/api/tasks",
+					"protocol": "https",
+					"host": [
+						"taskboardjsv02-1--plamenpeev",
+						"repl",
+						"co"
+					],
+					"path": [
+						"api",
+						"tasks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://taskboardjsv02-1--plamenpeev.repl.co/api/boards",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "ghp_****************************************",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "PlamenPeev",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"Test for delete\",\r\n    \"description\": \"Test\",\r\n    \"board\": \"In Progress\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://taskboardjsv02-1--plamenpeev.repl.co/api/boards",
+					"protocol": "https",
+					"host": [
+						"taskboardjsv02-1--plamenpeev",
+						"repl",
+						"co"
+					],
+					"path": [
+						"api",
+						"boards"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://taskboardjsv02.softuniqa.repl.co/api/tasks",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "ghp_****************************************",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "PlamenPeev",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"state\": \"open\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://taskboardjsv02.softuniqa.repl.co/api/tasks",
+					"protocol": "https",
+					"host": [
+						"taskboardjsv02",
+						"softuniqa",
+						"repl",
+						"co"
+					],
+					"path": [
+						"api",
+						"tasks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://taskboardjsv02.softuniqa.repl.co/api/tasks",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "ghp_****************************************",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "PlamenPeev",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"state\": \"open\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://taskboardjsv02.softuniqa.repl.co/api/tasks",
+					"protocol": "https",
+					"host": [
+						"taskboardjsv02",
+						"softuniqa",
+						"repl",
+						"co"
+					],
+					"path": [
+						"api",
+						"tasks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://taskboardjsv02.softuniqa.repl.co/api/tasks/6",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "ghp_****************************************",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "PlamenPeev",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"state\": \"open\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://taskboardjsv02.softuniqa.repl.co/api/tasks/6",
+					"protocol": "https",
+					"host": [
+						"taskboardjsv02",
+						"softuniqa",
+						"repl",
+						"co"
+					],
+					"path": [
+						"api",
+						"tasks",
+						"6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://taskboardjsv02.softuniqa.repl.co/api/tasks/search/task",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "ghp_****************************************",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "PlamenPeev",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"state\": \"open\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://taskboardjsv02.softuniqa.repl.co/api/tasks/search/task",
+					"protocol": "https",
+					"host": [
+						"taskboardjsv02",
+						"softuniqa",
+						"repl",
+						"co"
+					],
+					"path": [
+						"api",
+						"tasks",
+						"search",
+						"task"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://taskboardjsv02.softuniqa.repl.co/api/tasks/board/open",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "ghp_****************************************",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "PlamenPeev",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"state\": \"open\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://taskboardjsv02.softuniqa.repl.co/api/tasks/board/open",
+					"protocol": "https",
+					"host": [
+						"taskboardjsv02",
+						"softuniqa",
+						"repl",
+						"co"
+					],
+					"path": [
+						"api",
+						"tasks",
+						"board",
+						"open"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://taskboardjsv02-1--plamenpeev.repl.co/api/tasks",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "ghp_****************************************",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "PlamenPeev",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"Add Tests\",\r\n    \"description\": \"API + UI tests\",\r\n    \"board\": \"Open\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://taskboardjsv02-1--plamenpeev.repl.co/api/tasks",
+					"protocol": "https",
+					"host": [
+						"taskboardjsv02-1--plamenpeev",
+						"repl",
+						"co"
+					],
+					"path": [
+						"api",
+						"tasks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://taskboardjsv02-1--plamenpeev.repl.co/api/tasks",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "ghp_****************************************",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "PlamenPeev",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"New Tests\",\r\n    \"description\": \"Test test\",\r\n    \"board\": \"In Progress\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://taskboardjsv02-1--plamenpeev.repl.co/api/tasks",
+					"protocol": "https",
+					"host": [
+						"taskboardjsv02-1--plamenpeev",
+						"repl",
+						"co"
+					],
+					"path": [
+						"api",
+						"tasks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://taskboardjsv02-1--plamenpeev.repl.co/api/tasks/8",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "ghp_****************************************",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "PlamenPeev",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"Old Tests\",\r\n    \"description\": \"Test done\",\r\n    \"board\": \"Done\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://taskboardjsv02-1--plamenpeev.repl.co/api/tasks/8",
+					"protocol": "https",
+					"host": [
+						"taskboardjsv02-1--plamenpeev",
+						"repl",
+						"co"
+					],
+					"path": [
+						"api",
+						"tasks",
+						"8"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://taskboardjsv02-1--plamenpeev.repl.co/api/tasks",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "ghp_****************************************",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "PlamenPeev",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"Test for delete\",\r\n    \"description\": \"Test\",\r\n    \"board\": \"In Progress\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://taskboardjsv02-1--plamenpeev.repl.co/api/tasks",
+					"protocol": "https",
+					"host": [
+						"taskboardjsv02-1--plamenpeev",
+						"repl",
+						"co"
+					],
+					"path": [
+						"api",
+						"tasks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://taskboardjsv02-1--plamenpeev.repl.co/api/tasks/9",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "ghp_****************************************",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "PlamenPeev",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"Test for delete\",\r\n    \"description\": \"Test\",\r\n    \"board\": \"In Progress\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://taskboardjsv02-1--plamenpeev.repl.co/api/tasks/9",
+					"protocol": "https",
+					"host": [
+						"taskboardjsv02-1--plamenpeev",
+						"repl",
+						"co"
+					],
+					"path": [
+						"api",
+						"tasks",
+						"9"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://taskboardjsv02-1--plamenpeev.repl.co/api/boards",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "ghp_****************************************",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "PlamenPeev",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"Test for delete\",\r\n    \"description\": \"Test\",\r\n    \"board\": \"In Progress\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://taskboardjsv02-1--plamenpeev.repl.co/api/boards",
+					"protocol": "https",
+					"host": [
+						"taskboardjsv02-1--plamenpeev",
+						"repl",
+						"co"
+					],
+					"path": [
+						"api",
+						"boards"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://taskboardjsv02-1--plamenpeev.repl.co/api/tasks",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "ghp_****************************************",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "PlamenPeev",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"Add Tests\",\r\n    \"description\": \"API tests\",\r\n    \"board\": \"Open\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://taskboardjsv02-1--plamenpeev.repl.co/api/tasks",
+					"protocol": "https",
+					"host": [
+						"taskboardjsv02-1--plamenpeev",
+						"repl",
+						"co"
+					],
+					"path": [
+						"api",
+						"tasks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://taskboardjsv02-1--plamenpeev.repl.co/api/tasks/9",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "ghp_****************************************",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "PlamenPeev",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"Test for delete\",\r\n    \"description\": \"Test\",\r\n    \"board\": \"In Progress\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://taskboardjsv02-1--plamenpeev.repl.co/api/tasks/7",
+					"protocol": "https",
+					"host": [
+						"taskboardjsv02-1--plamenpeev",
+						"repl",
+						"co"
+					],
+					"path": [
+						"api",
+						"tasks",
+						"7"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://taskboardjsv02-1--plamenpeev.repl.co/api/tasks",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "ghp_****************************************",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "PlamenPeev",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"Add more test about that API\",\r\n    \"description\": \"API tests\",\r\n    \"board\": \"Open\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://taskboardjsv02-1--plamenpeev.repl.co/api/tasks/7",
+					"protocol": "https",
+					"host": [
+						"taskboardjsv02-1--plamenpeev",
+						"repl",
+						"co"
+					],
+					"path": [
+						"api",
+						"tasks",
+						"7"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
